@@ -1,9 +1,42 @@
-.Datosbasicos{
-    background-color: blue;
+.nombre{
+    text-align: left;
+    padding-top: 10px;
+    margin-top: 0px;
+    margin-left: 40px;
+    font-size: large;
+    color: #375285;
 }
-.Nombre{
-    background-color: green;
+.imagen{
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    margin-left: 10%; 
+    aspect-ratio: 1;
+    margin-top: -250px;
+    margin-left: 30%; 
+    border: solid 10px  #b9c9e7;
 }
-.TodoElTexto{
-    text-align: center;
+.fondo2{ 
+    height: 700px;
+    background-color: #375285  ;
+    margin: 20px 20px 20px 20px;
+    padding: 30px;
+    padding-top: 15%;
+    border-radius: 20px;
+    font-family: "Big Shoulders", sans-serif;
+    color: white;
+}
+.fondo1{
+    margin-top: 0%;
+    background-color: #b9c9e7;
+    margin-left: 23%;
+    margin-right: 20%;
+   
+}
+ .logros{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: -18%;
+
 }
