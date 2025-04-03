@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;   
+}
+
+
+
+
+
+
+body{
+    background-color: black;
+}
+.espacio{
+    margin-bottom: 0!important;
+    margin-top: 0;
+}
+.cabecera{
+    background-color: rgb(61, 64, 88);
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    padding: 1em;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.foto{
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.DatosPerfil, .tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+.data{
+    background-color:white;
+    width: 300px;
+    height: 200px;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+.numeros{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.msj{
+    background-color: red;
+    border-radius: 50px;
+    width: 150px;
+    padding: 1px;
+    text-align: center;
+    margin-left: 70px;
+}
+.Minfo{
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+
+
+
+
+
