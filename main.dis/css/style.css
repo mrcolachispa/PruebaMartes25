@@ -1,0 +1,7 @@
+.titulo{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background: radial-gradient(circle, rgba(230,238,174,1) 0%, rgba(10,53,103,1) 100%);
+}
